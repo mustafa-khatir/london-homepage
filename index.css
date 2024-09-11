@@ -1,0 +1,187 @@
+body {
+    font-family: "Comfortaa", sans-serif;
+    margin-left:0px;
+    margin-right:0px;
+    background: linear-gradient(white, lightgray, rgb(194, 191, 191));
+}
+
+#BTN1 {
+    border: 1px solid red;
+    border-radius:50% ;
+    position: fixed;
+    right:15px;
+    bottom:25px;
+    opacity: 1;
+}
+
+#header {
+ display: block;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-evenly;
+}
+
+#welcome-h1 {
+    font-weight: lighter;
+}
+#welcome-h1:hover {
+    text-shadow: 5px 5px 5px red;
+}
+
+nav {
+ margin-top: 15px;
+}
+ul {
+    list-style: none;
+}
+li {
+    margin:5px;
+    display: inline;
+}
+li:hover {
+    text-shadow: 5px 5px 5px blue;
+}
+
+
+#main {
+    background-image: url("images/london-background-nt45snlvfny4b5ch.jpg");
+    background-size: cover;
+    width:100%x;
+    height:519px;
+    padding-top: 3px;
+
+}
+
+.welcome-h2 {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+    font-size: 35px;
+}
+.london-span {
+    text-shadow: 5px 5px 5px black;
+    border-bottom: 2px solid black;
+}
+
+#main-info-div {
+    width:700px;
+    margin: 0 auto;
+    
+}
+.main-info {
+    padding-top: 5px;
+    height:380px;
+    text-align: center;
+    color:blue;
+    text-shadow: 1px 1px 1px black;
+    font-size: 25px;
+    background-color: white;
+    border-radius: 5px;
+    opacity: 0;
+}
+.main-info:hover {
+    padding-top: 5px;
+    height:380px;
+    text-align: center;
+    color:blue;
+    text-shadow: 1px 1px 1px black;
+    font-size: 25px;
+    background-color: white;
+    border-radius: 5px;
+    opacity: 1;
+    padding:10px;
+}
+
+
+#fun-facts {
+    width:100%;
+    height: 480px;
+    margin-top: 10px;
+}
+.fun-facts-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.facts { /*this is the span element for the facts */
+font-weight: bold;
+text-shadow: 1px 1px 1px blue;
+}
+.fun-fact1 { /*the p element for the facts */
+border: 1px solid black;
+border-radius: 5px;
+}
+
+
+#gallery {
+ display: flex;
+ border: 5px solid gray;
+ height: 350px;
+ margin-bottom: 50px;
+}
+.image1, .image2, .image3, .image4 {
+    width:50%;
+    height:350px;
+}
+
+
+#hover-image {
+margin-top:100px;
+margin-bottom: 150px;
+}
+.hover-imageTitle {
+    text-align: center;
+    margin-bottom: 100px;
+}
+.hover-them {
+display: flex;
+justify-content: space-evenly;
+}
+ 
+.bus1 {
+    box-shadow: -10px 10px  2px black;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-left:8px;
+    width:400px;
+    height:200px;
+  
+}
+.bus1:hover {
+    margin-left:8px;
+    width:400px;
+    height:200px;
+    background-image: url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExeDV2Zm5wN3UyamJ2ZWVqOXp5Y2h2enF1cDBua3JiNHZxaDUxYXMwdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/iHtQHyxs0H1m1yTBGJ/giphy.webp");
+}
+
+.bus2 {
+    box-shadow: 1px 10px  2px black;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-left:8px;
+    width:400px;
+    height:200px;
+}
+.bus2:hover {
+    margin-left:8px;
+    width:400px;
+    height:200px;
+    background-size: cover;
+    background-image: url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExd25mcDR6djZtMGx3bWIxMDkzNnd4NG0wZXFmbHd0ZjJtcWI5YWs3NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pYhFb0kn2GhQQ/giphy.webp");
+}
+
+.bus3 {
+    box-shadow: 10px 10px  2px black;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-left:8px;
+    width:400px;
+    height:200px;
+    
+}
+.bus3:hover {
+    margin-left:8px;
+    width:400px;
+    height:200px;
+    background-size: cover;
+    background-image: url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXV1cG0xdTZ0NGZudzg1MWI1YnlybnB0cTJ3MXZyMHoxcHhhbDg2eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7WIFFTsbyDfO8i40/giphy.webp");
+}
